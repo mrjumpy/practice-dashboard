@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '[--save]',
+1 verbose cli   'reactable' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ '[--save]', null ]
+5 verbose cache add name=undefined spec="[--save]" args=["[--save]",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '[--save]',
+6 verbose parsed url   path: '[--save]',
+6 verbose parsed url   href: '[--save]' }
+7 verbose cache add [ 'reactable', null ]
+8 verbose cache add name=undefined spec="reactable" args=["reactable",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'reactable',
+9 verbose parsed url   path: 'reactable',
+9 verbose parsed url   href: 'reactable' }
+10 silly lockFile ac0c90e7-save [--save]
+11 verbose lock [--save] /home/ubuntu/.npm/ac0c90e7-save.lock
+12 silly lockFile 8755f894-reactable reactable
+13 verbose lock reactable /home/ubuntu/.npm/8755f894-reactable.lock
+14 silly lockFile ac0c90e7-save [--save]
+15 silly lockFile ac0c90e7-save [--save]
+16 silly lockFile 8755f894-reactable reactable
+17 silly lockFile 8755f894-reactable reactable
+18 verbose addNamed [ '[--save]', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile eb3996db-save [--save]@
+21 verbose lock [--save]@ /home/ubuntu/.npm/eb3996db-save.lock
+22 verbose addNamed [ 'reactable', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 3b9d6f83-reactable reactable@
+25 verbose lock reactable@ /home/ubuntu/.npm/3b9d6f83-reactable.lock
+26 silly addNameRange { name: '[--save]', range: '*', hasData: false }
+27 verbose request where is /[--save]
+28 verbose request registry https://registry.npmjs.org/
+29 verbose request id c809217498d8828c
+30 verbose url raw /[--save]
+31 verbose url resolving [ 'https://registry.npmjs.org/', './%5B--save%5D' ]
+32 verbose url resolved https://registry.npmjs.org/%5B--save%5D
+33 verbose request where is https://registry.npmjs.org/%5B--save%5D
+34 info trying registry request attempt 1 at 07:33:49
+35 http GET https://registry.npmjs.org/%5B--save%5D
+36 silly addNameRange { name: 'reactable', range: '*', hasData: false }
+37 verbose request where is /reactable
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /reactable
+40 verbose url resolving [ 'https://registry.npmjs.org/', './reactable' ]
+41 verbose url resolved https://registry.npmjs.org/reactable
+42 verbose request where is https://registry.npmjs.org/reactable
+43 info trying registry request attempt 1 at 07:33:49
+44 http GET https://registry.npmjs.org/reactable
+45 http 404 https://registry.npmjs.org/%5B--save%5D
+46 silly registry.get cb [ 404,
+46 silly registry.get   { 'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=0',
+46 silly registry.get     'content-length': '68',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     date: 'Fri, 18 Sep 2015 07:33:49 GMT',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '0',
+46 silly registry.get     connection: 'keep-alive',
+46 silly registry.get     'x-served-by': 'cache-hkg6824-HKG',
+46 silly registry.get     'x-cache': 'MISS',
+46 silly registry.get     'x-cache-hits': '0',
+46 silly registry.get     'x-timer': 'S1442561629.194627,VS0,VE227' } ]
+47 silly lockFile eb3996db-save [--save]@
+48 silly lockFile eb3996db-save [--save]@
+49 http 200 https://registry.npmjs.org/reactable
+50 silly registry.get cb [ 200,
+50 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+50 silly registry.get     etag: '"6S43QPT7BXO1LWTHAXL0WTOVD"',
+50 silly registry.get     'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=60',
+50 silly registry.get     'content-length': '26655',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     date: 'Fri, 18 Sep 2015 07:33:49 GMT',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     connection: 'keep-alive',
+50 silly registry.get     'x-served-by': 'cache-hkg6826-HKG',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1442561629.200665,VS0,VE484',
+50 silly registry.get     vary: 'Accept' } ]
+51 silly addNameRange number 2 { name: 'reactable', range: '*', hasData: true }
+52 silly addNameRange versions [ 'reactable',
+52 silly addNameRange   [ '0.9.3',
+52 silly addNameRange     '0.9.4',
+52 silly addNameRange     '0.9.5',
+52 silly addNameRange     '0.9.6',
+52 silly addNameRange     '0.9.7',
+52 silly addNameRange     '0.9.8',
+52 silly addNameRange     '0.10.0',
+52 silly addNameRange     '0.10.1',
+52 silly addNameRange     '0.10.2',
+52 silly addNameRange     '0.11.0' ] ]
+53 verbose addNamed [ 'reactable', '0.11.0' ]
+54 verbose addNamed [ '0.11.0', '0.11.0' ]
+55 silly lockFile 8301ff70-reactable-0-11-0 reactable@0.11.0
+56 verbose lock reactable@0.11.0 /home/ubuntu/.npm/8301ff70-reactable-0-11-0.lock
+57 silly lockFile 1d4ae317-g-reactable-reactable-0-11-0-tgz https://registry.npmjs.org/reactable/-/reactable-0.11.0.tgz
+58 verbose lock https://registry.npmjs.org/reactable/-/reactable-0.11.0.tgz /home/ubuntu/.npm/1d4ae317-g-reactable-reactable-0-11-0-tgz.lock
+59 verbose addRemoteTarball [ 'https://registry.npmjs.org/reactable/-/reactable-0.11.0.tgz',
+59 verbose addRemoteTarball   '2e074a752bbaad3d5cc53d8fc15469ac4048163c' ]
+60 info retry fetch attempt 1 at 07:33:49
+61 verbose fetch to= /tmp/npm-14240-ub49T2IX/registry.npmjs.org/reactable/-/reactable-0.11.0.tgz
+62 http GET https://registry.npmjs.org/reactable/-/reactable-0.11.0.tgz
+63 http 200 https://registry.npmjs.org/reactable/-/reactable-0.11.0.tgz
+64 silly lockFile 1d4ae317-g-reactable-reactable-0-11-0-tgz https://registry.npmjs.org/reactable/-/reactable-0.11.0.tgz
+65 silly lockFile 1d4ae317-g-reactable-reactable-0-11-0-tgz https://registry.npmjs.org/reactable/-/reactable-0.11.0.tgz
+66 silly lockFile 8301ff70-reactable-0-11-0 reactable@0.11.0
+67 silly lockFile 8301ff70-reactable-0-11-0 reactable@0.11.0
+68 silly lockFile 3b9d6f83-reactable reactable@
+69 silly lockFile 3b9d6f83-reactable reactable@
+70 error 404 Not Found
+70 error 404
+70 error 404 '[--save]' is not in the npm registry.
+70 error 404 You should bug the author to publish it
+70 error 404
+70 error 404 Note that you can also install from a
+70 error 404 tarball, folder, or http url, or git url.
+71 error System Linux 3.14.13-c9
+72 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "[--save]" "reactable"
+73 error cwd /home/ubuntu/workspace
+74 error node -v v0.10.35
+75 error npm -v 1.4.28
+76 error code E404
+77 verbose exit [ 1, true ]
