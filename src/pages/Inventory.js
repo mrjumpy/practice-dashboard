@@ -7,7 +7,7 @@ var Inventory = React.createClass({
     var fakeData = [];
     for(var i = 0 ; i < 1000 ; i++){
       var obj = {
-        barcode: Faker.random.number(1231923),
+        barcode: Faker.random.number(1000),
         name: Faker.commerce.productName(),
         qty: Faker.random.number(100) 
       };

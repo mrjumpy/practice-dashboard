@@ -8,8 +8,8 @@ var Suppliers = React.createClass({
     for(var i = 0 ; i < 1000 ; i++){
       var obj = {
         supplier: Faker.company.companyName(),
-        boss: Faker.internet.userName(),
-        phone: Faker.phone.phoneNumber() 
+        boss: Faker.name.lastName(),
+        phone: Faker.phone.phoneNumberFormat() 
       };
       fakeData.push(obj);
     }

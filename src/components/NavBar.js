@@ -13,7 +13,7 @@ var NavBar = React.createClass({
                     <span className="icon-bar"></span>
                     <span className="icon-bar"></span>
                 </button>
-                <a className="navbar-brand" href="/dashboard.html">Trend Admin</a>
+                <a className="navbar-brand" href="/dashboard.html">Bindo</a>
             </div>
             <UserMenu/>
             <SideBar/>

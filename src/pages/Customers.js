@@ -7,10 +7,10 @@ var Customers = React.createClass({
     var fakeData = [];
     for(var i = 0 ; i < 1000 ; i++){
       var obj = {
-        customer: Faker.internet.userName(),
-        prodct: Faker.internet.userName(),
+        customer: Faker.name.lastName(),
+        product: Faker.commerce.productName(),
         qty: Faker.random.number(10),
-        cost: Faker.random.number(1000)
+        cost: Faker.random.number(50)
       };
       fakeData.push(obj);
     }

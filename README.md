@@ -7,40 +7,36 @@ You’ll made out column names and fake data. Gird data pages should be paginate
 
 ---
 ###  why reactJS
-This time we have to build a dashboard. And We want to build it in SPA way.
-
+For a dashboard. We want to build it in SPA way.
 ReactJS provide a lof guideline and resouces to do SPA.
 
-And, you can use concept of "Components" to scale your webApp. 
+#### Easy to scale because it conventions
+* You can just follow the concept of "Components" to scale your webApp. 
+* ReactJS focus on MVC's V. So you can learn it fast. 
+* If you want to scale to SPA, you can use FLUX. 
 
-ReactJS focus on MVC's V. So you can learn it fast. 
+### Why not AngularJS?
+#### AngularJS provide whole MVC for you, but
+* It becomes complicated and hard to learn(compared with reactJS).
+* There are a lot of "why you should not use AngularJS" blog to read, but lesser in reactJS..XD
+* Not good enough convensions to follow, you can do different way.
+* Angrular 1.* can't upgrade to 2.x. But, there is a solution recently (maybe).
 
-If you want to do SPA, you can just use reactJS.
-
-If you want to scale to SPA, you can use FLUX. 
-
-
-Why not AngularJS?
-
-AngularJS provide whole MVC concept to use, it becomes complicated and hard to learn.
-
-There are a lot of "why you should not use AngularJS" blog to read XD, but lesser in reactJS.
-
-
+### Pure SPA way
 
 There's also another way to build SPA, if we don't want to use any big framework.. check:
 
 https://www.manning.com/books/single-page-web-applications
 
-But, I think ReactJS is better now, and easily to maintain.
+But, I think ReactJS is better now, and it coding convension is good to follow.
 
 
 ### Chart - why react-chartjs
 
-There is a libs there, we don't have to integrate another chart plugin to it.
+There is a libs there, and we don't DRY.
 
 Since there's only a Piechart to do in assignment.
-If we had a lot of chart to do, I'll choose d3 or hightchart.
+If we had the other chart to do, I'll choose the other (maybe d3 or hightchart, etc).
 
 ### Date - why fecha
 
@@ -51,7 +47,7 @@ Lightweight date formatting and parsing (~1KB).
 
 Since we don't use redux here.
 
-We need a router here, and it just fit. 
+We need a router here, and it just fit :). 
 
 
 
@@ -66,11 +62,14 @@ These fake data just fit my requirements, and it's popular.
 
 ### Table - why griddle-react
 
-Because the top reactjs-table is BSD license. And this time we only had two things to follow:
+Because the top reactjs-table is BSD licens..XD. And this time we only had two things to implement:
 
 * pager
 * RWD
 
+### Why gulp
+For me, I think it's the most popular framework(compared with Grunt/Webpack), and very very easy to learn and use.
+There is even gulp-webpack, so what are we waiting for? XD
 
 
 All of them are popular and maintainable now, we can developed any feature by ourself.
